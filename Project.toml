@@ -1,0 +1,16 @@
+name = "HypergraphRewriting"
+uuid = "23dedf58-ba92-4122-9340-26d78cc8546a"
+authors = ["anand jain <anandj@uchicago.edu>"]
+version = "0.1.0"
+
+[deps]
+GraphHelpers = "7e3157f9-11f3-423c-ab81-312edf651e8f"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+Hypergraphs = "e8750569-3de7-4cef-bf57-e15971961c91"
+Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
